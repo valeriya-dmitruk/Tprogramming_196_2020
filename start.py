@@ -31,12 +31,18 @@ def task_b(a,b,i):
         y=calc(a,b,x_item)
         res.append ((x_item, y))
     return res
+if __name__ == "__main__":
+    a = 2.5
+    b = 4.6
+    res = task_a(a,b,1.1,3.6,0.5)
+    print("Task A ------------")
+    print_res(res)
 
-x_lst = [1.2, 1.28, 1.36, 1.46, 2.35] 
-res = task_b(a,b,x_lst)  
+ x_lst = [1.2, 1.28, 1.36, 1.46, 2.35] 
+ res = task_b(a,b,x_lst)  
 
-print("Task B ------------")
-print_res(res)
+ print("Task B ------------")
+ print_res(res)
 
     
 
