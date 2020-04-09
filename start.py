@@ -1,4 +1,3 @@
-print ("Hello world")
 import math
 a = 2.0
 b = 0.98
