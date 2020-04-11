@@ -19,6 +19,9 @@ class Dog:
     def increase_age(self):
         self.__age = self.__age + 1
 
+    def running(self):
+        print(f"я{self.name}, я бегу")    
+
     def __str__(self):
         return f"name: {self.name}, age: {self.__age}" + """         
   ''»,
@@ -34,11 +37,13 @@ if __name__ == "__main__":
     # dog1.age = 10
     dog1.increase_age()
     print(dog1.name, dog1.age)
+    dog1.running()
 
     dog2 = Dog("Dori")
     # dog2.age = "2"
     dog2.increase_age()
     print(dog2.name, dog2.age)
+    dog2.running()
 
     dog2.age = 13
     dog2.age = "Test"
