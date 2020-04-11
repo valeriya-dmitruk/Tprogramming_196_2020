@@ -16,12 +16,7 @@ def print_res(res):
   for item in res:
     x,y = item
     print(f"x={x} y={y}")
-
-res = task_a(a,b,1.1,3.6,0.5)   
-for item in res:
-    x,y = item
-    print(f"x={x} y={y}")
-
+    
 def task_b(a,b,i):
     res = [] 
     for x_item in i:
